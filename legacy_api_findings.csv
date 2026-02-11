@@ -1,0 +1,105 @@
+file,path,match_type,matched,location
+defender-atp-connector.json,github.com/edusancheez2005/mde-migration-test-templates/connectors/defender-atp-connector.json,legacy_connector,MicrosoftDefenderATP,$.resources[0].name
+defender-atp-connector.json,github.com/edusancheez2005/mde-migration-test-templates/connectors/defender-atp-connector.json,legacy_connector,MicrosoftDefenderATP,$.resources[1].properties.api.id
+defender-atp-connector.json,github.com/edusancheez2005/mde-migration-test-templates/connectors/defender-atp-connector.json,legacy_connector,MicrosoftDefenderATP,(raw text)
+defender-atp-connector.json,github.com/edusancheez2005/mde-migration-test-templates/connectors/defender-atp-connector.json,legacy_connector,shared_windowsdefenderatp,$.resources[0].properties.api.id
+defender-atp-connector.json,github.com/edusancheez2005/mde-migration-test-templates/connectors/defender-atp-connector.json,legacy_connector,shared_windowsdefenderatp,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.security.microsoft.com,$.mappings[2].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.security.microsoft.com,$.mappings[3].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.security.microsoft.com,$.mappings[4].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.security.microsoft.com,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.securitycenter.microsoft.com,$.mappings[0].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.securitycenter.microsoft.com,$.mappings[1].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.securitycenter.microsoft.com,$.mappings[5].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.securitycenter.microsoft.com,$.mappings[6].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.securitycenter.microsoft.com,$.mappings[7].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.securitycenter.microsoft.com,$.mappings[8].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.securitycenter.microsoft.com,$.mappings[9].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.securitycenter.microsoft.com,$.mappings[10].legacy.api
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_base,api.securitycenter.microsoft.com,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_connector,MicrosoftDefenderATP,$.connectorMigration.legacy[0]
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_connector,MicrosoftDefenderATP,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_connector,shared_windowsdefenderatp,$.connectorMigration.legacy[1]
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_connector,shared_windowsdefenderatp,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/advancedqueries/run\b,$.mappings[4].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/advancedqueries/run\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/alerts/[^/\s]+\b,$.mappings[1].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/alerts/[^/\s]+\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/alerts\b,$.mappings[0].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/alerts\b,$.mappings[1].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/alerts\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/exposureScore\b,$.mappings[10].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/exposureScore\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/incidents/[^/\s]+/comments\b,$.mappings[3].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/incidents/[^/\s]+/comments\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/incidents\b,$.mappings[2].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/incidents\b,$.mappings[3].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/incidents\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+/isolate\b,$.mappings[5].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+/isolate\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+/runAntiVirusScan\b,$.mappings[7].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+/runAntiVirusScan\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+/unisolate\b,$.mappings[6].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+/unisolate\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.mappings[5].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.mappings[6].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.mappings[7].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.mappings[8].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/machines/[^/\s]+\b,(raw text)
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/vulnerabilities\b,$.mappings[9].legacy.endpoint
+api-migration-mapping.json,github.com/edusancheez2005/mde-migration-test-templates/mappings/api-migration-mapping.json,legacy_endpoint,/api/vulnerabilities\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-alerts/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Get_All_Alerts.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-alerts/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Get_Specific_Alert.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-alerts/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-alerts/azuredeploy.json,legacy_endpoint,/api/alerts/[^/\s]+\b,$.resources[0].properties.definition.actions.Get_Specific_Alert.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-alerts/azuredeploy.json,legacy_endpoint,/api/alerts/[^/\s]+\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-alerts/azuredeploy.json,legacy_endpoint,/api/alerts\b,$.resources[0].properties.definition.actions.Get_All_Alerts.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-alerts/azuredeploy.json,legacy_endpoint,/api/alerts\b,$.resources[0].properties.definition.actions.Get_Specific_Alert.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-alerts/azuredeploy.json,legacy_endpoint,/api/alerts\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_base,api.security.microsoft.com,$.resources[0].properties.definition.actions.List_Incidents.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_base,api.security.microsoft.com,$.resources[0].properties.definition.actions.Add_Comment.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_base,api.security.microsoft.com,$.resources[0].properties.definition.actions.Get_Evidence.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_base,api.security.microsoft.com,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_endpoint,/api/evidence\b,$.resources[0].properties.definition.actions.Get_Evidence.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_endpoint,/api/evidence\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_endpoint,/api/incidents/[^/\s]+/comments\b,$.resources[0].properties.definition.actions.Add_Comment.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_endpoint,/api/incidents/[^/\s]+/comments\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_endpoint,/api/incidents\b,$.resources[0].properties.definition.actions.List_Incidents.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_endpoint,/api/incidents\b,$.resources[0].properties.definition.actions.Add_Comment.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/get-incidents/azuredeploy.json,legacy_endpoint,/api/incidents\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/isolate-machine/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Get_Machine_ID.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/isolate-machine/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Isolate_Machine.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/isolate-machine/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/isolate-machine/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/isolate\b,$.resources[0].properties.definition.actions.Isolate_Machine.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/isolate-machine/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/isolate\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/isolate-machine/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.resources[0].properties.definition.actions.Get_Machine_ID.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/isolate-machine/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.resources[0].properties.definition.actions.Isolate_Machine.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/isolate-machine/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Unisolate_Machine.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Run_AV_Scan.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Offboard_Machine.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Get_Vulnerabilities.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Get_All_Vulnerabilities.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,$.resources[0].properties.definition.actions.Get_Exposure_Score.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_base,api.securitycenter.microsoft.com,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/exposureScore\b,$.resources[0].properties.definition.actions.Get_Exposure_Score.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/exposureScore\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/offboard\b,$.resources[0].properties.definition.actions.Offboard_Machine.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/offboard\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/runAntiVirusScan\b,$.resources[0].properties.definition.actions.Run_AV_Scan.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/runAntiVirusScan\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/unisolate\b,$.resources[0].properties.definition.actions.Unisolate_Machine.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/unisolate\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/vulnerabilities\b,$.resources[0].properties.definition.actions.Get_Vulnerabilities.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+/vulnerabilities\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.resources[0].properties.definition.actions.Unisolate_Machine.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.resources[0].properties.definition.actions.Run_AV_Scan.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.resources[0].properties.definition.actions.Offboard_Machine.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+\b,$.resources[0].properties.definition.actions.Get_Vulnerabilities.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/machines/[^/\s]+\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/vulnerabilities\b,$.resources[0].properties.definition.actions.Get_All_Vulnerabilities.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/machine-actions/azuredeploy.json,legacy_endpoint,/api/vulnerabilities\b,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/run-hunting-query/azuredeploy.json,legacy_base,api.security.microsoft.com,$.resources[0].properties.definition.actions.Run_Hunting_Query.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/run-hunting-query/azuredeploy.json,legacy_base,api.security.microsoft.com,(raw text)
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/run-hunting-query/azuredeploy.json,legacy_endpoint,/api/advancedqueries/run\b,$.resources[0].properties.definition.actions.Run_Hunting_Query.inputs.uri
+azuredeploy.json,github.com/edusancheez2005/mde-migration-test-templates/playbooks/run-hunting-query/azuredeploy.json,legacy_endpoint,/api/advancedqueries/run\b,(raw text)
